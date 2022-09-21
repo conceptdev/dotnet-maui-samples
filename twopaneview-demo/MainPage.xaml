@@ -17,6 +17,7 @@
                 <StackLayout BackgroundColor="Blue"
                                  Orientation="Vertical"
                                  VerticalOptions="StartAndExpand"
+                                 Padding="5"
                                  >
 
                     <Label Text="ScreenSize" x:Name="sizeLabel"/>
@@ -42,7 +43,7 @@
 
                     <Label Text=""/>
                     <Label Text="Jetpack Window Manager 1.0.0"/>
-                    <Button Text="Reset" Clicked="OnReset" />
+                    <Button Text="Reset TwoPaneView" Clicked="OnReset" HorizontalOptions="Center"/>
                 </StackLayout>
             </Frame>
         </foldable:TwoPaneView.Pane1>
@@ -60,7 +61,7 @@
                         HorizontalOptions="Center" />
 
                     <Label
-                        Text="Hello, World!"
+                        Text="Hello, foldable!"
                         SemanticProperties.HeadingLevel="Level1"
                         FontSize="32"
                         HorizontalOptions="Center" />
@@ -79,7 +80,7 @@
                         Clicked="OnCounterClicked"
                         HorizontalOptions="Center" />
 
-                    <Button Text="Reset" Clicked="OnReset"
+                    <Button Text="Reset TwoPaneView" Clicked="OnReset"
                         HorizontalOptions="Center"/>
 
                 </VerticalStackLayout>
