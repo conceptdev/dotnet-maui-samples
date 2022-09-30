@@ -1,6 +1,9 @@
 # dotnet-maui-samples
 
-.NET MAUI (previously Xamarin.Forms) samples
+.NET MAUI (previously Xamarin.Forms) samples, mostly for Surface Duo and other Android foldable devices...
+
+> **NOTE**
+> - .NET MAUI Foldable support is currently in preview
 
 ## Foldable test
 

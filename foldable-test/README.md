@@ -1,9 +1,10 @@
 # .NET MAUI Foldable NuGet test app
 
-This repo demonstrates how to add the `Microsoft.Maui.Controls.Foldable` NuGet to a blank/new **.NET MAUI** project/solution.
-
 > **NOTE**
-> This sample requires the `Microsoft.Maui.Controls.Foldable.nupkg` be available via a local feed - it is not yet available on nuget.org (15 September 2022).
+> - .NET MAUI Foldable support is currently in preview
+> - This sample requires the `Microsoft.Maui.Controls.Foldable.nupkg` be available via a local feed - it is not yet available on nuget.org (15 September 2022).
+
+This project demonstrates how to add the `Microsoft.Maui.Controls.Foldable` NuGet to a blank/new **.NET MAUI** project/solution.
 
 ## Steps to fold
 
