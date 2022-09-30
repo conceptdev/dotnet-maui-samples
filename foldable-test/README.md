@@ -1,4 +1,4 @@
-# foldable-test
+# .NET MAUI Foldable NuGet test app
 
 This repo demonstrates how to add the `Microsoft.Maui.Controls.Foldable` NuGet to a blank/new **.NET MAUI** project/solution.
 
