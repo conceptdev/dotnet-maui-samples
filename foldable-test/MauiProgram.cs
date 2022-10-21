@@ -1,6 +1,7 @@
-﻿namespace MauiApp3;
-
+﻿using Microsoft.Extensions.Logging;
 using Microsoft.Maui.Foldable;
+
+namespace MauiApp4;
 
 public static class MauiProgram
 {
@@ -15,6 +16,9 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
+#if DEBUG
+		builder.Logging.AddDebug();
+#endif
 
         // Adapt to dual-screen and foldable Android devices like Surface Duo, includes TwoPaneView layout control
         builder.UseFoldable();

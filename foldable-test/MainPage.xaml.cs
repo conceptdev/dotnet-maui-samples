@@ -1,4 +1,4 @@
-﻿namespace MauiApp3;
+﻿namespace MauiApp4;
 
 public partial class MainPage : ContentPage
 {
@@ -7,7 +7,10 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
-	}
+
+        twoPaneView.Pane1Length = new GridLength(4, GridUnitType.Star);
+        twoPaneView.Pane2Length = new GridLength(1, GridUnitType.Star);
+    }
 
 	private void OnCounterClicked(object sender, EventArgs e)
 	{
